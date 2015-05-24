@@ -2,7 +2,7 @@
   height: 6px;
   line-height: 2px;
   position: relative;
-  width: 100%;
+  width: 90%;
 }
 button.qq-upload-cancel {
   background-color: transparent;
@@ -16,8 +16,27 @@ button.qq-upload-cancel {
 }
 .qq-upload-size {
 	color:#333;
-text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px #fff;
 }
+.qq-upload-file {
+	font-size:.8em;
+  font-family: Arial;
+}
+.qq-upload-success .qq-upload-file {
+  color: green;
+}
+.qq-upload-success {
+  background-image: url("../img/success.png");
+background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.qq-upload-fail {
+  background-image: url("../img/exclamation_sign.png");
+background-position: right center;
+  background-repeat: no-repeat;
+}
+
 li {
 	margin:4px;
 	padding:6px;

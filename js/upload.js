@@ -16,7 +16,6 @@ window.addEventListener( 'load', function() {
 					'<button class="qq-upload-cancel" type="button"></button>' +
 					'<progress class="qq-upload-progress"></progress>' +
 					'<div class="qq-upload-size"></div>' +
-					'<span class="qq-upload-failed-text">Failed</span>' +
 				'</li>',
 			classes: {
 				// used to get elements from templates
